@@ -1,0 +1,1301 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*border: 1px solid black;*/
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.main1
+{
+	height: 700px;
+	width: 99.85%;
+	/*border: 1px solid red;*/
+	background-image: url(mountain.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.goin
+{
+	height: 90px;
+	width: 99.85%;
+	background-color: green;
+	position: fixed;
+	z-index: 1;
+}
+.logo
+{
+	height: 90px;
+	width: 160px;
+	background-image: url(logo.png);
+	background-size: 100% 100%;
+    position: relative;
+    left: 30px;
+    float: left;
+}
+.goin ul
+{
+ 
+    margin-right: 50px;
+    float: right;
+    margin-top: 25px;
+}
+.goin ul li 
+{
+	float: left; 
+	margin-right: 15px;
+	color: white;
+	background: transparent;
+	border: 2px solid white;
+	/*height: 100px;*/
+	padding: 6px 25px;
+	border-radius: 20px;
+	font-size: 21px;
+	transition-property: transform;
+	transition-duration: 1s; 
+}
+.goin ul li:hover
+{
+	cursor: pointer;
+	transition-duration: 1s;
+	transform: translateY(-10px);
+	background-color: #008080;
+}
+.studio
+{
+	height: 300px;
+	width: 500px;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 250px;
+	left: 147px;
+	color: white;
+}
+.studio h3
+{
+    font-size: 45px;
+}
+.studio span
+{
+	color: #FF4500;
+}
+.studio p
+{
+    position: relative;
+    top: 17px;
+}
+.studio button
+{
+	height: 40px;
+	width: 130px;
+	background: transparent;
+	border-radius: 30px;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	top: 50px;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+.studio button:hover
+{
+    border: none;
+	transform: translateY(8px);
+	/*transition: 1s;*/
+	background-color: #008080;
+	cursor: pointer;
+
+}
+.unique
+{
+	height: 250px;
+	width: 99.85%;
+	/*border: 1px solid red;*/
+
+}
+.u1
+{
+	height: 250px;
+	width: 33.33%;
+	background-color: green;
+	color: white;
+	float: left;
+	/*position: absolute;*/
+	/*left: 450px*/
+}
+.set
+{
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+	background-color: white;
+	background-image: url(setting.png);
+	background-size: 100% 100%;
+	position: relative;
+	top: 30px;
+	margin: auto;
+}
+.u1 h3
+{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.u1 p
+{
+	text-align: center;
+	position: relative;
+	top: 45px;
+	font-size: 18px;
+}
+.u1 span
+{
+	color: #ABD7E3;
+	position: relative;
+	top: 15px;
+	cursor: pointer;
+}
+.u2
+{
+	height: 250px;
+	width: 33.33%;
+	background-color: black;
+	color: white;
+	float: left;
+	/*position: absolute;*/
+	/*left: 450px;*/
+}
+.set
+{
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+	background-color: white;
+	background-image: url(setting.png);
+	background-size: 100% 100%;
+	position: relative;
+	top: 30px;
+	margin: auto;
+}
+.u2 h3
+{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.u2 p
+{
+	text-align: center;
+	position: relative;
+	top: 45px;
+	font-size: 18px;
+}
+.u2 span
+{
+	color: #ABD7E3;
+	position: relative;
+	top: 15px;
+	cursor: pointer;
+}
+.u3
+{
+	height: 250px;
+	width: 33.33%;
+	background-color: #008080;
+	color: white;
+	float: left;
+	/*position: absolute;*/
+	/*left: 900px;*/
+}
+.set
+{
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+	background-color: white;
+	background-image: url(setting.png);
+	background-size: 100% 100%;
+	position: relative;
+	top: 30px;
+	margin: auto;
+}
+.u3 h3
+{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+.u3 p
+{
+	text-align: center;
+	position: relative;
+	top: 45px;
+	font-size: 18px;
+}
+.u3 span
+{
+	color: #ABD7E3;
+	position: relative;
+	top: 15px;
+	cursor: pointer;
+}
+.main2
+{
+	height: 520px;
+	width: 99.85%;
+	/*border: 1px solid red;*/
+}
+.main2 h3
+{
+	text-align: center;
+	font-size: 32px;
+	color: #FF4500;
+	position: relative;
+	top: 30px;
+}
+.web1
+{
+	height: 150px;
+	width: 505px;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 110px;
+	left: 145px;
+	box-shadow: 5px 5px 10px 1px grey;
+	float: left;
+}
+.circle
+{
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: 40px;
+	left: 30px;
+	border-radius: 50px;
+	background-color: #FFA500;
+}
+.circle img
+{
+	height: 70%;
+	width: 70%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.web1 h5
+{
+ 	font-size: 25px;
+ 	text-align: center;
+ 	position: relative;
+ 	top: -25px;
+ 	left: 20px;
+}
+.web1 p
+{
+	position: relative;
+	left: 150px;
+	top: -20px;
+
+}
+.web2
+{
+	height: 150px;
+	width: 505px;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 110px;
+	left: 195px;
+	box-shadow: 5px 5px 10px 1px grey;
+	float: left;
+	position: relative;
+	/*left: 100px;*/
+}
+.circle
+{
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: 40px;
+	left: 30px;
+	border-radius: 50px;
+	background-color: #FFA500;
+}
+.circle img
+{
+	height: 70%;
+	width: 70%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.web2 h5
+{
+ 	font-size: 25px;
+ 	text-align: center;
+ 	position: relative;
+ 	top: -25px;
+ 	left: 20px;
+}
+.web2 p
+{
+	position: relative;
+	left: 150px;
+	top: -20px;
+
+}
+.web3
+{
+	height: 150px;
+	width: 505px;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 130px;
+	left: 145px;
+	box-shadow: 5px 5px 10px 1px grey;
+	float: left;
+
+}
+.circle
+{
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: 40px;
+	left: 30px;
+	border-radius: 50px;
+	background-color: #FFA500;
+}
+.circle img
+{
+	height: 70%;
+	width: 70%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.web3 h5
+{
+ 	font-size: 25px;
+ 	text-align: center;
+ 	position: relative;
+ 	top: -25px;
+ 	left: 20px;
+}
+.web3 p
+{
+	position: relative;
+	left: 150px;
+	top: -20px;
+
+}
+.web4
+{
+	height: 150px;
+	width: 505px;
+	/*border: 1px solid red;*/
+	position: relative;
+	top: 130px;
+	left: 195px;
+	box-shadow: 5px 5px 10px 1px grey;
+	float: left;
+	position: relative;
+	/*left: 100px;*/
+	/*top: -20px;*/
+}
+.circle
+{
+	height: 65px;
+	width: 65px;
+	position: relative;
+	top: 40px;
+	left: 30px;
+	border-radius: 50px;
+	background-color: #FFA500;
+}
+.circle img
+{
+	height: 70%;
+	width: 70%;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.web4 h5
+{
+ 	font-size: 25px;
+ 	text-align: center;
+ 	position: relative;
+ 	top: -25px;
+ 	left: 20px;
+}
+.web4 p
+{
+	position: relative;
+	left: 150px;
+	top: -20px;
+
+}
+.main3
+{
+	height: 515px;
+	width: 99.85%;
+	/*border: 1px solid red;*/
+}
+.laptop
+{
+	height: 495px;
+	width: 43%;
+	/*border: 1px solid red;*/
+	background-image: url(forth.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	left: 15px;
+	/*top: -5px;*/
+	float: left;
+}
+.design
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	/*top: 30px;*/
+	left: 35px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.design1
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	/*top: 30px;*/
+	left: 45px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design1 h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design1 p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.design2
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	/*top: 30px;*/
+	left: 55px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design2 h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design2 p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.design3
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 35px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design3 h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design3 p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.design4
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 45px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design4 h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design4 p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.design5
+{
+	height: 245px;
+	width: 220px;
+	/*border: 1px solid red;*/
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 55px;
+	box-shadow: 2px 2px 8px 4px lightgrey;
+	float: left;
+}
+.img
+{
+	height: 52px;
+	width: 52px;
+	/*border: 1px solid red;*/
+	background-size: 100% 100%;
+	position: relative;
+	left: 8px;
+
+}
+.img img
+{
+	height: 100%;
+	width: 100%;
+}
+.design5 h6
+{
+	font-size: 20.2px;
+	color: red;
+	position: relative;
+	top: 17.5px;
+	left: 8px;
+}
+.design5 p
+{
+	font-size: 17px;
+	position: relative;
+	top: 30px;
+	left: 8px;
+}
+.world{
+    height: 400px;
+    width: 100%;
+    background-image: url(world2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.boxx{
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.h16{
+    color: orangered;
+    text-align: center;
+}
+.h17{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.boxx:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: translateY(10px);
+}
+.boxx1{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.h18{
+    color: orangered;
+    text-align: center;
+}
+.h19{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.boxx1:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: translateY(10px);
+}
+.boxx2{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.h20{
+    color: orangered;
+    text-align: center;
+}
+.h21{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.boxx2:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: translateY(10px);
+}
+.boxx3{
+    height: 80px;
+    width: 250px;
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.h22{
+    color: orangered;
+    text-align: center;
+}
+.h23{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.boxx3:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: translateY(10px);
+}
+.container1{
+    height: 1200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.group1{
+    height: 400px;
+    width: 675px;
+    position: absolute;
+    background-image: url(group1.jpg);
+    background-size: 100% 100%;
+}
+.h24{
+    position: absolute;
+    right: 210px;
+    top: 150px;
+    font-size: 24px;
+}
+.p18{
+    color: orangered;
+    position: absolute;
+    right:260px;
+    top: 250px;
+}
+.group2{
+    height: 400px;
+    width: 675px;
+    position: absolute;
+    background-image: url(group2.jpg);
+    background-size: 100% 100%;
+    left: 675px;
+    top: 400px;
+}
+.h25{
+    position: absolute;
+    left:150px;
+    top: 550px;
+    font-size: 24px;
+}
+.p19{
+    color: orangered;
+    position: absolute;
+    left:150px;
+    top: 650px;
+}
+.group3{
+    height: 400px;
+    width: 675px;
+    position: absolute;
+    background-image: url(group3.jpg);
+    background-size: 100% 100%;
+    top: 800px;
+}
+.h26{
+    position: absolute;
+    right:210px;
+    top: 950px;
+    font-size: 24px;
+}
+.p20{
+    color: orangered;
+    position: absolute;
+    right:260px;
+    top: 1050px;
+}
+.container2{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-color: lightgray;
+}
+.h27{
+    color: orangered;
+    text-align: center;
+    padding-top: 30px;
+}
+.boxx4{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    background-image: url(work01.jpg);
+    background-size: 100% 100%;
+}
+.boxx5{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 460px;
+    top: 130px;
+    background-image: url(work02.jpg);
+    background-size: 100% 100%;
+}
+.boxx6{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 870px;
+    top: 130px;
+    background-image: url(work03.jpg);
+    background-size: 100% 100%;
+}
+.boxx7{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 360px;
+    background-image: url(work04.jpg);
+    background-size: 100% 100%;
+}
+.boxx8{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 460px;
+    top: 360px;
+    background-image: url(work05.jpg);
+    background-size: 100% 100%;
+}
+.boxx9{
+    height: 220px;
+    width: 400px;
+    position: absolute;
+    left: 870px;
+    top: 360px;
+    background-image: url(work06.jpg);
+    background-size: 100% 100%;
+}
+.b2{
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    border: 0px solid;
+    border-radius: 50px;
+    top: 600px;
+    left: 600px;
+    background: orangered;
+    color: white;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.b2:hover{
+    cursor: pointer;
+    transform: translateY(10px);
+}
+.container3{
+    height: 600px;
+    width: 100%;
+}
+.h28{
+    color: orangered;
+    text-align: center;
+    margin-top: 30px;
+}
+.boxx10{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.boxx10:hover{
+    transition-duration: 2s;
+    transform: scale(.8);
+}
+.rock{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 200px;
+    background-image: url(rocket1.png);
+    background-size: 100% 100%;
+    top: 10px;
+}
+.h29{
+    font-size: 30px;
+    padding-left: 35px;
+}
+.h30{
+    padding-left: 110px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.h31{
+    font-size: 12px;
+    padding-left: 110px;
+    padding-top: 20px;
+}
+.b3{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 50px;
+    top: 250px;
+    left: 75px;
+    background: rosybrown;
+    color: white; 
+}
+.b3:hover{
+    cursor: pointer;
+    color: red;
+    box-shadow: 2px 2px 8px 4px red;
+
+}
+.boxx11{
+    height: 360px;
+    width: 300px;
+    position: relative;
+    left: 530px;
+    top: -240px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.boxx11:hover{
+    transition-duration: 2s;
+    transform: scale(1.1);
+}
+.rock1{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 200px;
+    background-image: url(rocket1.png);
+    background-size: 100% 100%;
+    top: 10px;
+}
+.h32{
+    font-size: 30px;
+    padding-left: 35px;
+}
+.h33{
+    padding-left: 110px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.h34{
+    font-size: 12px;
+    padding-left: 110px;
+    padding-top: 20px;
+}
+.b4{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 50px;
+    top: 250px;
+    left: 75px;
+    background: rosybrown;
+    color: white; 
+}
+.b4:hover{
+    cursor: pointer;
+    color: red;
+    box-shadow: 2px 2px 8px 4px red;
+
+}
+.boxx12{
+    height: 320px;
+    width: 300px;
+    position: relative;
+    left: 860px;
+    top: -580px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.boxx12:hover{
+    transition-duration: 2s;
+    transform: scale(.8);
+}
+.rock2{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 200px;
+    background-image: url(rocket1.png);
+    background-size: 100% 100%;
+    top: 10px;
+}
+.h35{
+    font-size: 30px;
+    padding-left: 35px;
+}
+.h36{
+    padding-left: 110px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.h37{
+    font-size: 12px;
+    padding-left: 110px;
+    padding-top: 20px;
+}
+.b5{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 50px;
+    top: 250px;
+    left: 75px;
+    background: rosybrown;
+    color: white; 
+}
+.b5:hover{
+    cursor: pointer;
+    color: red;
+    box-shadow: 2px 2px 8px 4px red;
+
+}
+.mountain{
+    height: 350px;
+    width: 100%;
+    background-image: url(mountain.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.h38{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.p21{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.b6{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    border: 0px solid;
+    border-radius: 50px;
+    top: 200px;
+    left: 590px;
+    background: rosybrown;
+    color: white; 
+}
+.b6:hover{
+    cursor: pointer;
+    color: red;
+    
+}
+.container4{
+    height: 630px;
+    width: 100%;
+    position: relative;
+}
+.h39{
+    color: orangered;
+    text-align: center;
+    padding-top: 30px;
+}
+.boxx13{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    background-image: url(blog01.jpg);
+    background-size: 100% 100%;
+}
+.boxx14{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 500px;
+    top: 120px;
+    background-image: url(blog02.jpg);
+    background-size: 100% 100%;
+}
+.boxx15{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 840px;
+    top: 120px;
+    background-image: url(blog03.jpg);
+    background-size: 100% 100%;
+}
+.boxx16{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 160px;
+    top: 360px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+}
+.h40{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.h41{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.p22{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.boxx17{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 500px;
+    top: 360px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+}
+.h42{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.h43{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.p23{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.boxx18{
+    height: 220px;
+    width: 320px;
+    position: absolute;
+    left: 840px;
+    top: 360px;
+    box-shadow: 2px 2px 8px 4px lightgray;
+}
+.h44{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.h45{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.p24{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.h46{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.h47{
+    color: white;
+    font-size: 20px;
+    padding-left: 160px;
+    padding-top: 60px;
+}
+.p25{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.log{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    left: 440px;
+    top: -25px;
+    background-image: url(logo.png);
+    background-size: 100% 100%;
+}
